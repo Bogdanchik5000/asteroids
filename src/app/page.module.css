@@ -1,0 +1,44 @@
+.wrap {
+  display: flex;
+  gap: 0 5%;
+  position: relative;
+  padding-right: 15px;
+}
+
+.img {
+  position: sticky;
+  top: 10%;
+  object-fit: contain;
+  margin-left: -5%;
+}
+
+.payed {
+  display: flex;
+  flex-direction: column;
+  gap: 24px 0;
+}
+
+.payedTitle {
+  font-weight: 700;
+  font-size: 28px;
+}
+
+@media (max-width: 1125px) {
+  .img {
+    max-width: 377px;
+    max-height: 436px;
+    margin-left: -80px;
+  }
+}
+
+@media (max-width: 750px) {
+  .img {
+    margin-left: -200px;
+  }
+}
+
+@media (max-width: 450px) {
+  .img {
+    max-width: 250px;
+  }
+}

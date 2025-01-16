@@ -1,0 +1,31 @@
+.wrap {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.asteroidData {
+  display: flex;
+  align-items: center;
+  gap: 0 20px;
+  margin-bottom: 30px;
+}
+
+.asteroidInfo {
+  display: flex;
+  flex-direction: column;
+}
+
+.approachDataTitle {
+  margin-bottom: 10px;
+}
+
+.approach {
+  margin-bottom: 30px;
+}
+
+.btnBack {
+  position: fixed;
+  right: 3%;
+  bottom: 5%;
+}

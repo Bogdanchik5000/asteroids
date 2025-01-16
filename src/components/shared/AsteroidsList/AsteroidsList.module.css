@@ -1,0 +1,30 @@
+.title {
+  margin-bottom: 10px;
+}
+
+.relativeUnits {
+  display: flex;
+  margin-bottom: 24px;
+}
+
+.relativeUnitsDivider {
+  width: 1px;
+  background-color: white;
+}
+
+.relativeUnitText {
+  padding: 0 5px;
+  cursor: pointer;
+  border-bottom: 1px solid white;
+}
+
+.relativeUnitText.active {
+  font-weight: 700;
+  border-bottom: 1px solid transparent;
+}
+
+.asteroids {
+  display: flex;
+  flex-direction: column;
+  gap: 24px 0;
+}

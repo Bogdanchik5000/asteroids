@@ -1,0 +1,15 @@
+.header {
+  margin-bottom: 30px;
+}
+
+.wrap {
+  display: flex;
+  flex-direction: column;
+  gap: 8px 0;
+  padding: 16px;
+}
+
+.title {
+  color: #f86600;
+  font-size: 32px;
+}
